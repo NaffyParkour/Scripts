@@ -1,4 +1,6 @@
 @echo off
+attrib +s +h C:\Users\UTENTE\Desktop
+:checking
 set /a tries=3
 set password= setyourpassword
 :top
@@ -33,5 +35,6 @@ echo Password Accepted!
 echo.
 echo Opening Folder...
 echo ----------------------------------------------
+atrrib -s -h C:\Users\UTENTE\Desktop
 explorer C:\Users\UTENTE\Desktop
 pause
